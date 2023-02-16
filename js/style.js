@@ -63,7 +63,7 @@ function removeActive(){
     nav:true,
     autoplay:true,
     autoplayTimeout:3000,
-    lazyLoadEager:5,
+ 
     
     responsive:{
         0:{

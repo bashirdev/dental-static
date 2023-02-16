@@ -256,7 +256,11 @@ nav ul li {
    position: absolute;
    top:45%;
    left:-6%;
-   transition:opacity 3s ease;
+   transition:all 0.5s ease;
+}
+.owl-theme .owl-dots .owl-dot span  {
+   transition:all 0.5s ease;
+   background-color:#00CCE1 !important;
 }
 .owl-theme .owl-dots .owl-dot.active span  {
    height:40px !important;
