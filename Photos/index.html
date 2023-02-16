@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nature</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- AniCollection.css library -->
+     <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+  
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <!-- https://websitedemos.net/sierra-nature-02/ -->
+    <!-- implementations  plugin here-->
+    <!-- http://anijs.github.io/examples/scrollreveal/ -->
+    <!-- https://github.com/Orlandster/wc-typed-js -->
+
+  <header class="home">
+    <div class="container">
+      <!-- nav start -->
+      <nav class="navbar navbar-expand-lg  ">
+     
+         <a class="navbar-brand" href="#">
+            <img class="logo" src="./Photos/logo.svg" alt="" srcset="">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+           <!-- <span class="navbar-toggler-icon"></span> -->
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ms-auto py-4 ">
+          
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">About</a>
+             </li>
+             
+             <li class="nav-item">
+               <a class="nav-link" href="#">Service</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Project</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Contact</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link btn-action" href="#">Take Action</a>
+             </li>
+           </ul>
+          
+         </div>
+     
+     </nav>
+    </div>
+      <!-- nav end -->
+  <div class="container hero-container">
+    <div class="hero-content">
+      <div class="row">
+          <div class="col-md-12 d-flex text-center justify-content-center align-items-center">
+            <div class="hero-text" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal, after: removeAnim"  >
+              <h4 class="welcome">Welcome To</h4>
+              <wc-typed-js strings="awesome, brilliant" loop="true">
+                <h1 class="title py-3"  >SIERRA <span class="typing"></span>NATURAL PARK</h1>
+              </wc-typed-js>
+              
+               
+                 <div class="hero-btn mt-5">
+                    <a href="http://" class="btn-action">Learn More</a>
+                 </div>
+                
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="down-arrow">
+       <i class="fa-solid fa-arrow-down"></i>
+   </div>
+ 
+  </header>  
+  <!-- About section -->
+<section data-anijs="if: scroll, on:window, do: rollIn animated, before: scrollReveal, after: removeAnim" class="about-us">
+   <div class="container">
+        <div class="row">
+           <div class="col-md-12 ">
+            <div class="about-content  text-center">
+              <h4>About Us</h4> 
+              <h2 class="py-4">One Touch Of Nature Makes The <br>Whole World Kin</h2>
+              <div class="text-p">
+                <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                <p>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+              </div>
+            </div>
+           </div>
+        </div>
+   </div>
+</section>
+ <!-- About section end -->
+<!-- Service Start -->
+   
+<section class="service">
+  <div class="container">
+    <div class="row gx-5 gy-4" data-anijs="if: scroll, on: window, do: swing animated, before: scrollReveal, after: removeAnim">
+        <div class="col-md-6 left-content" >
+           <h4>Service</h4>
+           <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Ut Elit Tellus, Luctus Nec Ullamcorper.</h3>
+           <span></span>
+           <h4>Study Nature, Love Nature</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+           <span></span>
+           <h4>Autumn Is a Second Spring</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+           <span></span>
+           <h4>Just Let It Rain</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center  ">
+           <div class="right-content">
+            <h2>A Light Wind Swept Over The Corn, And All Nature Laughed In The Sunshine.</h2>
+           </div>
+
+        </div>
+    </div>
+  </div>
+ 
+</section>  
+
+<!-- Service End -->
+
+  <!-- Project section -->
+  <section   class="project">
+    <div class="container">
+    <div class="text-center">
+      <h4>Project</h4> 
+      <wc-typed-js strings="awesome, brilliant" loop="true">
+        <h2 class="projectanimation">Forest <span class="typing"></span> Wilderness</h2>
+      </wc-typed-js>
+     
+    </div>
+         <div class="row mt-5">
+            <div class="col-md-4 py-4" data-anijs="if: scroll, on: window, do: bounceInLeft animated, before: scrollReveal">
+             <div class="item"  >
+                <img src="./Photos/img-01.jpg" alt="" srcset="" class="img-fluid w-100">
+                <h4>Look Deep Into Nature</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+         </div>
+            <div class="col-md-4 py-4" data-anijs="if: scroll, on: window, do: rotateIn animated, before: scrollReveal">
+             <div class="item">
+                <img src="./Photos/img-02.jpg" alt="" srcset="" class="img-fluid w-100">
+                <h4>Just Living Is Not Enough </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+         </div>
+            <div class="col-md-4 py-4" data-anijs="if: scroll, on: window, do: bounceInRight animated, before: scrollReveal">
+             <div class="item">
+                <img src="./Photos/img-03.jpg" alt="" srcset="" class="img-fluid w-100">
+                <h4>Adopt The Pace Of Nature</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+         </div>
+    </div>
+ </section>
+  <!-- Project section end -->
+
+<section class="learn-more">
+  
+  <div class="container">
+    <div class="row text-center justify-content-center align-items-center">
+     
+         <div class="col-md-10 ">
+           <h2>Get started with lorem ipsum dolor sit amet consectetur.</h2>
+       </div>
+       <div class="col-md-2 bottom-btn">
+         <a href="#" class="btn-action">Learn More</a>
+       </div>
+       
+     </div>
+   
+</div>
+</section>
+<div class="backToTop">
+  <a href="#">
+   <i class="fa-solid fa-circle-chevron-up"></i>
+</a>
+ </div> 
+<section data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal" class="footer">
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-5">
+                      <h5 class="mb-4">About</h5>
+                      <p class="pb-5">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
+                 </div>
+                 <div class="col-md-7">
+                      <div class="row justify-content-between">
+                          <div class="col-md-6">
+                               <h5 class="mb-4">Services</h5>
+                            
+                                <ul>
+                                    <li><a href="#">Study nature</a></li>
+                                    <li><a href="#">Nature is a gift</a></li>
+                                    <li><a href="#">A second spring</a></li>
+                                    <li><a href="#">Smiles of nature</a></li>
+                                    <li><a href="#">Just let it rain</a></li>
+                                </ul>
+                          </div>
+                          <div class="col-md-6">
+                              <h5 class="mb-4">Contact</h5>
+                                <p class="pb-5">Proin gravida nibh auctor aliquet amet anean sollicitudin, lorem quis.</p>
+
+                                <p>12 Avenue, New York, NY 10160</p>
+                                 <p>+1 910-626-85255</p>
+                                 <p>contact@nature.com</p>
+                          </div>
+                      </div>
+                 </div>
+             </div>
+         </div>
+         <div class="container mt-5">
+             <div class="row">
+              <div class="col-md-6">
+                 <p>Copyright © 2023 Sierra Nature</p>
+              </div>
+              <div class="col-md-6 text-end footer-right-text">
+                 <p>Powered by Sierra Nature</p>
+              </div>
+             </div>
+         </div>
+     </footer>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    let wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null,    // optional scroll container selector, otherwise use window,
+        resetAnimation: true,     // reset animation on end (default is true)
+      }
+    );
+    wow.init();
+    </script>
+
+<script src="./js/anijs-min.js"></script>
+<script src="./js/anijs-helper-scrollreveal-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script>
+ const options = {
+  strings: ['welcome To', 'welcome To'],
+  typeSpeed: 100,
+  showCursor:false
+};
+ 
+ new Typed('.welcome', options);
+
+ const options2 = {
+  strings: ['SIERRA NATURAL','SIERRA NATURAL PARK'],
+  typeSpeed: 100,
+  showCursor:false
+};
+
+new Typed('.title', options2);
+
+ const options3 = {
+  strings: ['Forest Wilderness','Forest Wilderness'],
+  typeSpeed: 40,
+  showCursor:false
+};
+
+new Typed('.projectanimation', options3);
+
+</script> 
+<script src="./js/style.js"></script>
+
+  </body>
+</html>
