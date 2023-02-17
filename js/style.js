@@ -62,8 +62,8 @@ function removeActive(){
     loop:true,
     nav:true,
     autoplay:true,
-    autoplayTimeout:3000,
-    slideTransition:'ease',
+    smartSpeed: 500,
+    slideTransition:'0.4s linear',
  
     
     responsive:{
