@@ -65,15 +65,20 @@ header{
 header .nav-btns{
  
    background-color:#f69165;
-   display:inline-block;
    transform: skewX(-15deg);
    text-align:center;
    padding:25px 30px;
  
 }
-header .nav-btns a{
-   color:#fff;
-   transform: skewX(0) !important;
+.nav-btns .fa-solid, .fas {
+   font-weight: 900;
+   color: #fff;
+   transform: skewX(16deg);
+}
+header .nav-btns a {
+   color: #fff;
+   transform: skewX(18deg);
+   display: inline-block;
 }
 nav ul li {
    padding:18px;
