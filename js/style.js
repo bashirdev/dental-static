@@ -64,6 +64,7 @@ function removeActive(){
     autoplay:true,
     smartSpeed:1000,
     slideTransition:'0.4s linear',
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
  
     
     responsive:{

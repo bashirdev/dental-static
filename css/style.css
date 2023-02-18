@@ -175,7 +175,7 @@ header .nav-btns a {
 }
 
 .owl-carousel {
-   position:relative;
+   position:relative !important;
 }
 .owl-carousel .owl-stage-outer{
    position:relative;
@@ -189,7 +189,7 @@ header .nav-btns a {
 }
 .owl-carousel .owl-nav button.owl-next{
    position:absolute !important;
-   right:-11%;
+   right:-12%;
    top:50%;
    background: 0 0;
    color: inherit;
@@ -204,7 +204,7 @@ header .nav-btns a {
 
 .owl-carousel .owl-nav button.owl-prev{
    position:absolute !important;
-   left:-11%;
+   left:-12%;
    top:50%;
    background: 0 0;
    color: inherit;
@@ -214,6 +214,12 @@ header .nav-btns a {
    background:#00cce1;
    padding:0 15px !important;
    
+}
+.owl-carousel .owl-nav button.owl-prev span{
+   display:inline-block;
+   
+   
+
 }
 .owl-carousel .owl-nav button.owl-next:hover{
  background-color:#F69165 !important;
@@ -236,15 +242,15 @@ header .nav-btns a {
 .owl-theme .owl-dots  {
    width: 10px;
    height: 10px;
-   margin: 5px 7px;
+   /* margin: 5px 7px; */
    display: flex;
    flex-direction:column;
    -webkit-backface-visibility: visible;
-   
    border-radius: 30px;
    position: absolute;
    top:45%;
-   left:-6%;
+   left:-5%;
+   transform:traslateY(-50%);
    transition:all 0.5s ease;
 }
 .owl-theme .owl-dots .owl-dot span  {
