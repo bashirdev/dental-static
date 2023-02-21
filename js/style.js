@@ -57,7 +57,7 @@ function removeActive(){
 
 
   
-  $('.owl-carousel').owlCarousel({
+  $('.hero-owl').owlCarousel({
     rtl:false,
     loop:true,
     nav:true,
@@ -79,6 +79,31 @@ function removeActive(){
         }
     }
 })
+
+
+  $('.owl-car').owlCarousel({
+    rtl:false,
+    loop:true,
+    nav:true,
+    autoplay:true,
+    smartSpeed:1000,
+    slideTransition:'0.4s linear',
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
   
+    
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
 
 
