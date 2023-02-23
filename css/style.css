@@ -527,6 +527,82 @@ header .nav-btns a {
    display: none !important;
 }
 
+.price_section{
+   background:#f9f9f9;
+   padding:80px 0;
+}
+
+.price_section .price_content{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+}
+.price_section .price_content h2{
+   color:#000;
+   font-weight:bold
+}
+.price_content img{
+  padding:20px 0;
+}
+.price_section .price_content p{
+   color:#fff;
+   padding:0;
+   margin-bottom:50px;
+   display:block;
+   width:500px;
+   color:#000
+}
+
+.price_section .priceItem{
+   border:3px solid #fff;
+   padding:20px 0;
+   transition: 0.3s ease;
+}
+.price_section .priceItem h4{
+   font-weight:bold;
+   color:#00cce1;
+}
+.price_section .priceItem .price h1,h5{
+   color:#00cce1;
+}
+.price_section .priceItem .price h5{
+   color:#00cce1;
+}
+.price_section .priceItem .price{
+   background:#fff;
+}
+
+.price_section .priceItem:hover{
+   border:3px solid #f69165;
+   padding:20px 0;
+   transition: 0.3s ease;
+}
+
+.price_section .priceItem:hover .price{
+   background:#f69165;
+   color:#fff ;
+  
+}
+.price_section .priceItem:hover h1{
+   color:#fff ;
+}
+.price_section .priceItem:hover h5{
+   color:#fff ;
+}
+.price_section .priceItem ul li{
+   padding:5px 0;
+}
+.price_section .priceItem .signup_btn{
+   background:#00cce1;
+   border:none;
+   color:#fff;
+   transition: 0.3s ease;
+}
+.price_section .priceItem:hover .signup_btn{
+   background:#f69165;
+   color:#fff 
+}
 
 .footer_section{
    padding:80px 0;
