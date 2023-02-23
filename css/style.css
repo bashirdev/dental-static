@@ -306,8 +306,10 @@ header .nav-btns a {
 
 
 .doctors{
-   background-color: #f9f9f9;
+   background-color: #fff;
    text-align: center;
+   margin-top:50px;
+   padding:50px 0;
 }
 .doctors h1{
    font-size: 32px;
@@ -530,6 +532,7 @@ header .nav-btns a {
 .price_section{
    background:#f9f9f9;
    padding:80px 0;
+  
 }
 
 .price_section .price_content{
@@ -576,8 +579,11 @@ header .nav-btns a {
 .price_section .priceItem:hover{
    border:3px solid #f69165;
    padding:20px 0;
-   transition: 0.3s ease;
+    transition:0.3s ease;
+ 
 }
+
+
 
 .price_section .priceItem:hover .price{
    background:#f69165;
